@@ -62,7 +62,6 @@ export default () => {
         <br></br>
         Dados pegos do site Themoviedb.org
       </footer>
-
       {movieList.length <= 0 && (
         <div className="loading">
           <img
